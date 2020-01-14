@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+/home/adminl/WorkspaceHTML/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+4175420144.index
+335594668.index
+2450225158.index
+3070904283.index
+2263978388.index
+2845833568.index
+1212397723.index

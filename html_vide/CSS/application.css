@@ -1,0 +1,76 @@
+
+:root{
+        --taillecontient:600px;
+        --taillecontient2:500px;
+        --taille:500px;
+        --petitetaille:350px;
+        --taille2:500px;
+        --petitetaille2:150px;
+}
+
+h2{color: tomato;
+font-size-adjust: inherit;
+}
+
+
+#lory {
+        width: var(--taillecontient);
+        height: var(--taillecontient);
+        border: 15px black solid;
+        border-radius:10px;
+        padding: 20px;
+        margin-top: 50px;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: grey;
+}
+
+#lorem {
+        width: var(--petitetaille);
+        height: var(--taille);
+        border: 3px black solid;
+        border-radius:10px;
+        padding: 20px;
+        margin-top: 50px;
+        margin-right: auto;
+        margin-left: auto;
+        float: left;
+        background-color: white;
+        
+}
+
+#ipsum{
+        width: var(--petitetaille2);
+        height: var(--taille2);
+        border: 3px black solid;
+        border-radius:10px;
+        padding: 20px;
+        margin-top: 50px;
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+        float: right;
+        background-color: green;
+
+}
+
+#lorem::first-letter{
+        font-size: 10px;
+}
+
+.foo{  width: 125px;
+height: 125px}
+
+.bar{
+        border: 1px blueviolet solid;
+
+}
+
+a:hover{
+        color: green;
+}
+
+a:link, a:visited{
+        color: yellow;
+        text-decoration: none;
+}
